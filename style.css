@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.topo{
+    background-image: url(img/fundo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;   
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.menu a{
+    
+    text-decoration: none;
+    color: #352003;
+   
+}
+
+.menu img{
+    height: 50px;
+
+}
+
+
+.menu ul {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    list-style: none; 
+  }
+
+
+
+.img-logo{ 
+    border-radius: 90px;
+    height: 200px;
+    
+}
+.sobre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px;
+    background-color: #a86734;
+
+
+}
+
+.texto{
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+   
+    color: #fff; 
+    line-height: 1.6;
+}
+
+.imagem img{
+    height: 350px;
+    width: 350px;
+    border-radius: 6px;
+    
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #B7B597;
+    padding: 30PX;
+    padding-top:  20px;
+   
+}
+
+.item img{
+    height: 120px;
+    height: 330px;
+}
+
+.item p{
+    margin-left: 30px;
+    color: #6c370e; 
+    
+}
+
+.item h2{
+    
+    color: #B7B597;
+    font-weight: bold;
+    margin-left: 30px;
+    background-color: #985f31;
+    border-radius: 10px;
+}
+
+.horario-local {
+    padding: 20px;
+    color: #6c370e;
+    line-height: 1.6;
+}
+
+
+.horario-local {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+
+.imagens-local img {
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;   
+}
+
+
+.horario-local iframe {
+    height: 150px;
+    border-radius: 10px; 
+}
+
+.localizacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; 
+    flex-wrap: wrap;
+    background-color: #a86734;
+    height: 400px;
+  }
+  
+  .texto-local {
+    max-width: 400px;
+    color: antiquewhite;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .texto-local h2 {
+    margin-bottom: 15px;
+    color: antiquewhite;
+    font-size: 28px;
+  }
